@@ -11,5 +11,11 @@
 
 module.exports = {
   info: require('./logger/info'),
-  error: require('./logger/error')
+  error: require('./logger/error'),
+  debug: require('./logger/debug'),
+  warn: require('./logger/warn'),
+  random: require('./logger/random'),
+  raindom: require('./logger/rainbow'),
+  log: require('./logger/log'),
+  success: require('./logger/success')
 }

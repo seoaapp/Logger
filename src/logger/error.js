@@ -4,7 +4,7 @@ const color = require('colors');
 
 
 function error(text) {
-    return color.red('[error]' + text);
+    return color.bgRed('[error]' + text);
 }
 
 module.exports = error
